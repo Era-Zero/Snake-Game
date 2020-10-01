@@ -1,0 +1,55 @@
+/* Header CSS*/
+.Header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.logo-holder {
+    height: 55px;
+    width: 50px;
+}
+
+.brand-holder {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.myBTN {
+    width: 100%;
+    margin: 2px;
+}
+/* End of Header */
+
+/* Styling for the home component */
+
+/* geeral container styling */
+.container {
+    background-color: rgba(255, 255, 255, 0.514);
+    padding: 10px;
+}
+
+.space {
+    margin-top: 20px;
+    
+}
+
+.home{
+    height: 100vh;
+    background-image:linear-gradient(135deg, #8BC6EC, #9599E2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* end */
+
+body {
+    height: 100vh;
+    background-image:linear-gradient(135deg, #8BC6EC, #9599E2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
