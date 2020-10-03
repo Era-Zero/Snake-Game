@@ -12,9 +12,9 @@ const Infomation = () => {
     //All infomation regarding to the rules of the game will be displayed here
         <div className="container , space bg-light">
                 <h3 className="display-4">Welcome!</h3>
-                <p className="lead">As you can see you're currently on the game page if you would like to assistance click 'Help'.<br />
-                    To start the game simpliy click on 'start' and the snake will begine to move.
-                </p>
+                <p className="lead">As you can see you're currently on the game page if you would like assistance click 'Help'.<br />
+                    To start the game simply click on 'start' and the snake will begin to move.
+                </p> 
 
                 {/* modal to show rules */}
                 <Button variant="primary" onClick={handleShow}>
